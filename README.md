@@ -35,9 +35,9 @@ Universidad Nacional de Colombia
   
   
 # Projects
-  * [ChronosUN](http://chronosun.blogspot.com/)
-  * [BiciHack](http://bicihack.blogspot.com/)
-  * [GitHub](https://github.com/jaimeHMol)   
+  * <a href="http://chronosun.blogspot.com" target="_blank">ChronosUN</a>
+  * <a href="http://bicihack.blogspot.com" target="_blank">BiciHack</a>
+  * <a href="https://github.com/jaimeHMol" target="_blank">GitHub</a>  
   
   
 # Contact
@@ -45,6 +45,6 @@ Universidad Nacional de Colombia
 Message me  
 
 ### Social media
-  * [LinkedIn](https://www.linkedin.com/in/jaimeHMol)
-  * [Twitter](https://twitter.com/JaimeHMol)
-  * [Instagram](https://www.instagram.com/jaimeHMol/)
+  * <a href="https://www.linkedin.com/in/jaimeHMol" target="_blank">LinkedIn</a>
+  * <a href="ttps://twitter.com/JaimeHMol" target="_blank">Twitter</a>
+  * <a href="https://www.instagram.com/jaimeHMol" target="_blank">Instagram</a>
