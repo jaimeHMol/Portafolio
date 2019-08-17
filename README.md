@@ -35,9 +35,10 @@ Universidad Nacional de Colombia
   
   
 # Projects
-  * [ChronosUN](http://chronosun.blogspot.com/)
-  * [BiciHack](http://bicihack.blogspot.com/)
-  * [GitHub](https://github.com/jaimeHMol)   
+  * [ChronosUN](http://chronosun.blogspot.com): My bachelor thesis.
+  * [BiciHack](http://bicihack.blogspot.com): My volunteering experience with [Clubes de Ciencia Colombia](https://clubesdeciencia.co) third edition. 
+  * [GitHub](https://github.com/jaimeHMol): Academic and weekend projects.
+  * [Reeb Artesanal](http://www.reebartesanal.co): Homebrew beer brand made with my brother.
   
   
 # Contact
@@ -47,4 +48,4 @@ Message me
 ### Social media
   * [LinkedIn](https://www.linkedin.com/in/jaimeHMol)
   * [Twitter](https://twitter.com/JaimeHMol)
-  * [Instagram](https://www.instagram.com/jaimeHMol/)
+  * [Instagram](https://www.instagram.com/jaimeHMol)
