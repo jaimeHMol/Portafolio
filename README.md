@@ -45,6 +45,7 @@ Universidad Nacional de Colombia
 Message me  
 
 ### Social media
-  * [LinkedIn](https://www.linkedin.com/in/jaimeHMol)
-  * [Twitter](https://twitter.com/JaimeHMol)
+  * [LinkedIn](https://www.linkedin.com/in/jaimeHMol){:target="_blank"}
+  * [Twitter](https://twitter.com/JaimeHMol target="_blank")
   * [Instagram](https://www.instagram.com/jaimeHMol/)
+  * <a href="http://example.com/" target="_blank">Hello, world!</a>
