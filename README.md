@@ -1,9 +1,9 @@
 # About
 Ingeniero y profesor apasionado por la tecnología y con alma de maker/desarrollador.  
 Backpacker, DIY, Geek, Techie, Nounce, ToDo lister.
-💻📚👾⛰️🧗‍
-
-
+💻📚👾⛰️🧗‍   
+  
+  
 # Credentials
 Data Mining Master Degree  
 Universidad de Buenos Aires  
@@ -12,8 +12,8 @@ Universidad de Buenos Aires
 Electronic Engineering  
 Universidad Nacional de Colombia  
 2005 - 2010  
-
-
+  
+  
 # Toolbox
 ### Programming
   * Python
@@ -22,23 +22,24 @@ Universidad Nacional de Colombia
   * C++
   * Cobol
   * Assembler (Atmel, Texas Instruments, PIC)
-
+  
 ### Web
   * HTML
   * CSS
   * JavaScript
-
+    
 ### Data
+  * PL-SQL
   * Oracle Data Base, MySQL
-  * Dell Boomi, Oracle Data Integrator
-
-
+  * Dell Boomi, Oracle Data Integrator   
+  
+  
 # Projects
   * [ChronosUN](http://chronosun.blogspot.com/)
   * [BiciHack](http://bicihack.blogspot.com/)
-  * [GitHub](https://github.com/jaimeHMol)
-
-
+  * [GitHub](https://github.com/jaimeHMol)   
+  
+  
 # Contact
 ### Send a message
 Message me  
