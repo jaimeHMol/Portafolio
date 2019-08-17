@@ -1,21 +1,21 @@
 # About
-Ingeniero y profesor apasionado por la tecnología y con alma de maker/desarrollador.
+Ingeniero y profesor apasionado por la tecnología y con alma de maker/desarrollador.  
 Backpacker, DIY, Geek, Techie, Nounce, ToDo lister.
 💻📚👾⛰️🧗‍
 
 
 # Credentials
-Data Mining Master Degree
-Universidad de Buenos Aires
-2017 - Present
-
-Electronic Engineering
-Universidad Nacional de Colombia
-2005 - 2010
+Data Mining Master Degree  
+Universidad de Buenos Aires  
+2017 - Present  
+  
+Electronic Engineering  
+Universidad Nacional de Colombia  
+2005 - 2010  
 
 
 # Toolbox
-## Programming
+### Programming
   * Python
   * Groovy
   * R
@@ -23,12 +23,12 @@ Universidad Nacional de Colombia
   * Cobol
   * Assembler (Atmel, Texas Instruments, PIC)
 
-## Web
+### Web
   * HTML
   * CSS
   * JavaScript
 
-## Data
+### Data
   * Oracle Data Base, MySQL
   * Dell Boomi, Oracle Data Integrator
 
@@ -40,10 +40,10 @@ Universidad Nacional de Colombia
 
 
 # Contact
-## Send a message
+### Send a message
 Message me  
 
-## Social media
+### Social media
   * [LinkedIn](https://www.linkedin.com/in/jaimeHMol)
   * [Twitter](https://twitter.com/JaimeHMol)
   * [Instagram](https://www.instagram.com/jaimeHMol/)
