@@ -4,6 +4,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
 (function($) {
 
 	var $window = $(window),
