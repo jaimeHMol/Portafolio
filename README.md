@@ -1,6 +1,7 @@
 # About
-Data engineer apasionado por la tecnología, con alma de desarrollador siempre aprendiendo algo nuevo.
-Backpacker, DIY, Geek, ToDo lister.
+Data engineer apasionado por la tecnología, con alma de desarrollador siempre aprendiendo algo nuevo.  
+
+Backpacker, DIY, Geek, ToDo lister.  
 💻📚👾📷⛰️🧗‍
   
   
