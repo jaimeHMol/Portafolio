@@ -1,7 +1,8 @@
 # About
-Ingeniero y profesor apasionado por la tecnología y con alma de maker/desarrollador.  
-Backpacker, DIY, Geek, Techie, Nounce, ToDo lister.
-💻📚👾⛰️🧗‍   
+Data engineer apasionado por la tecnología, con alma de desarrollador siempre aprendiendo algo nuevo.  
+
+Backpacker, DIY, Geek, ToDo lister.  
+💻📚👾📷⛰️🧗‍
   
   
 # Credentials
@@ -9,7 +10,7 @@ Data Mining Master Degree
 Universidad de Buenos Aires  
 2017 - Present  
   
-Electronic Engineering  
+Bachelor in Electronic Engineering  
 Universidad Nacional de Colombia  
 2005 - 2010  
   
