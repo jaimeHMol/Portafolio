@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #706993;
+		color: #9EB3C2;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -117,11 +117,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #230289 !important;
+			color: #275DAD !important;
 		}
 
 	strong, b {
-		color: #706993;
+		color: #9EB3C2;
 		font-weight: 700;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #706993;
+		color: #9EB3C2;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1785,12 +1785,12 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #230289;
+		color: #275DAD;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #706993;
+			color: #9EB3C2;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -1803,7 +1803,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #706993;
+		color: #9EB3C2;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #230289;
+			border-color: #275DAD;
 		}
 
 	select {
@@ -1862,7 +1862,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #706993;
+			color: #9EB3C2;
 			background: #fff;
 		}
 
@@ -1902,7 +1902,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #706993;
+			color: #9EB3C2;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1953,7 +1953,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #230289;
+			border-color: #275DAD;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2382,8 +2382,7 @@ input, select, textarea {
 		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
-			/* margin: 0 0 1.6875em 0; */
-			margin: 0 0 0.5em 0;
+			margin: 0 0 1.6875em 0;
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
@@ -2404,7 +2403,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #230289;
+				background: #275DAD;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2465,7 +2464,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #706993;
+			color: #9EB3C2;
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2591,7 +2590,7 @@ input, select, textarea {
 		.button.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #e4e4e4;
-			color: #706993 !important;
+			color: #9EB3C2 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2599,7 +2598,7 @@ input, select, textarea {
 			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background-color: #f4f4f4;
-				color: #706993 !important;
+				color: #9EB3C2 !important;
 			}
 
 			input[type="submit"].alt:active,
@@ -2620,7 +2619,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #230289;
+			background-color: #275DAD;
 			color: #ffffff !important;
 		}
 
@@ -2645,7 +2644,7 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #706993 !important;
+			background-color: #9EB3C2 !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 			color: #fff !important;
 			cursor: default;
@@ -2702,8 +2701,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #230289;
-		color: #9EB3C2;
+		background: #275DAD;
+		color: #9CB5D9;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2722,11 +2721,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #F4E3AB;
+			color: #BDD4E7;
 		}
 
 		#header a {
-			color: #9EB3C2;
+			color: #9CB5D9;
 		}
 
 			#header a:hover {
@@ -2753,7 +2752,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #9EB3C2;
+				color: #9CB5D9;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2774,7 +2773,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #F4E3AB;
+					color: #BDD4E7;
 				}
 
 		#header > nav {
@@ -2791,7 +2790,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #371993;
+					border-top: solid 2px #3A6BB4;
 					display: block;
 					padding: 0;
 				}
@@ -2810,7 +2809,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #230289 !important;
+							color: #275DAD !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3079,7 +3078,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #230289;
+						background: #275DAD;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3319,34 +3318,35 @@ input, select, textarea {
 	}
 
 
-/* jaimeHMol: Custom styles for lists */
-	/* Create three equal columns that floats next to each other */
-	.columnListSml {
-	  float: left;
-	  width: 20%;
-	  padding: 10px;
-		height: 3em;
-	  /* height: 300px; /* Should be removed. Only for demonstration */ */
-	}
-	.columnListMed {
-		float: left;
-		width: 40%;
-		padding: 10px;
-		height: 3em;
-		/* height: 300px; /* Should be removed. Only for demonstration */ */
-	}
-	/* Create three equal columns that floats next to each other */
-	.rowList {
-	  height: 3em;
-		margin-left: 4em;
-	  /* height: 300px; /* Should be removed. Only for demonstration */ */
-	}
 
-	/* Clear floats after the columns */
-	.rowList:after {
-	  content: "";
-	  display: table;
-	  clear: both;
-		margin-left: 4em;
-		/* height: 3em; */
-	}
+	/* jaimeHMol: Custom styles for lists */
+		/* Create three equal columns that floats next to each other */
+		.columnListSml {
+		  float: left;
+		  width: 20%;
+		  padding: 10px;
+			height: 3em;
+		  /* height: 300px; /* Should be removed. Only for demonstration */ */
+		}
+		.columnListMed {
+			float: left;
+			width: 40%;
+			padding: 10px;
+			height: 3em;
+			/* height: 300px; /* Should be removed. Only for demonstration */ */
+		}
+		/* Create three equal columns that floats next to each other */
+		.rowList {
+		  height: 3em;
+			margin-left: 4em;
+		  /* height: 300px; /* Should be removed. Only for demonstration */ */
+		}
+
+		/* Clear floats after the columns */
+		.rowList:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+			margin-left: 4em;
+			/* height: 3em; */
+		}

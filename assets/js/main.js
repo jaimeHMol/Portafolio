@@ -1,5 +1,6 @@
 /*
-	Read Only by HTML5 UP
+  Base on code from:
+  Read Only by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -8,6 +9,28 @@
 particlesJS.load('particles-js', 'assets/particlesjs-config.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+
+/* To load randomly one of the quotes
+   existing on the quotes.json and show it on side panel subtittle */
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', "assets/quotes.json");
+  xhr.onreadystatechange = function (data) {
+    if(xhr.readyState == 4){
+      if(xhr.status == 200){
+        var params = JSON.parse(data.currentTarget.response);
+        rand = Math.floor(Math.random()*params.quotes.length);
+        word = params.quotes[rand];
+        document.getElementById("sidePanelSubtittle").innerHTML = word;
+        // if(callback) callback();
+      }else{
+        console.log('Error pJS - XMLHttpRequest status: '+xhr.status);
+        console.log('Error pJS - File config not found');
+      }
+    }
+  };
+  xhr.send();
+
 
 (function($) {
 
