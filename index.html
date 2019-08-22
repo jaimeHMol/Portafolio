@@ -16,6 +16,9 @@
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/carousel.css">
+
 	</head>
 	<body class="is-preload">
 
@@ -31,7 +34,8 @@
 						<li><a href="#one" class="active">About</a></li>
 						<li><a href="#two">My toolbox</a></li>
 						<li><a href="#three">Some projects</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#four">Work experience</a></li>
+						<li><a href="#five">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -174,7 +178,54 @@
 							</section>
 
 						<!-- Four -->
-							<section id="four">
+						<section id="four">
+							<div class="container">
+								<h3>Work experience</h3>
+								<p>Companies in which I have worked</p>
+									<div id="carouselJobs" class="carousel slide" data-ride="carousel">
+										<!-- Indicators of each image -->
+										<ol class="carousel-indicators">
+								      <li data-target="#carouselJobs" data-slide-to="0" class="active"></li>
+								      <li data-target="#carouselJobs" data-slide-to="1"></li>
+								      <li data-target="#carouselJobs" data-slide-to="2"></li>
+											<li data-target="#carouselJobs" data-slide-to="3"></li>
+								    </ol>
+										<!-- items of the carousel itself -->
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img src="images/everis.png" class="d-block w-100" alt="1">
+												<div class="carousel-caption d-none d-md-block">
+								          <h5>Everis</h5>
+								          <p>Six years of experience as IT Consultant</p>
+								        </div>
+											</div>
+											<div class="carousel-item">
+												<img src="images/poliGranColombiano.png" class="d-block w-100" alt="2">
+											</div>
+											<div class="carousel-item">
+												<img src="images/coreBi.png" class="d-block w-100" alt="3">
+											</div>
+											<div class="carousel-item">
+												<img src="images/elementum.png" class="d-block w-100" alt="4">
+											</div>
+										</div>
+										<a class="carousel-control-prev" href="#carouselJobs" role="button" data-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="carousel-control-next" href="#carouselJobs" role="button" data-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+							</div>
+							<div class="rowList"></div>
+						</section>
+
+
+
+						<!-- Five -->
+							<section id="five">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
@@ -195,9 +246,15 @@
 								</div>
 							</section>
 
-						<!-- Five -->
-						<!--
-							<section id="five">
+
+
+
+
+
+
+						<!-- EXTRAS -->
+						<!-- Six -->
+							<!-- <section id="six">
 								<div class="container">
 									<h3>Elements</h3>
 
@@ -523,8 +580,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</section>
 
 								</div>
-							</section>
-						-->
+							</section> -->
+
+						<!-- Seven -->
+
 
 					</div>
 
@@ -540,6 +599,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- Scripts -->
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -547,6 +607,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 
 	</body>
 </html>
