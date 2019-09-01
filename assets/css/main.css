@@ -3346,8 +3346,8 @@ input, select, textarea {
 	}
 	/* Create three equal columns that floats next to each other */
 	.rowList {
-	  height: 3em;
-		margin-left: 2em;
+	  /* height: 3em; */
+		/* margin-left: 2em; */
 		background-color: #ffffff !important;
 		border: #ffffff;
 	  /* height: 300px; /* Should be removed. Only for demonstration */ */
@@ -3389,8 +3389,8 @@ input, select, textarea {
 	}
 	/* Create three equal columns that floats next to each other */
 	.rowList {
-	  height: 3em;
-		margin-left: 1em;
+	  /* height: 3em; */
+		/* margin-left: 1em; */
 		background-color: #ffffff !important;
 		border: #ffffff;
 	  /* height: 300px; /* Should be removed. Only for demonstration */ */
