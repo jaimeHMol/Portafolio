@@ -3324,25 +3324,32 @@ input, select, textarea {
 /* jaimeHMol: Custom styles for lists */
 
 @media (min-width: 561px) {
+	/* Table to itemize */
+	.table-items{
+		width: 100%;
+		margin: 0 0 1.5em 2em;
+	}
 	/* Create three equal columns that floats next to each other */
 	.columnListSml {
 	  float: left;
 	  width: 29%;
 	  padding: 10px;
-		height: 3em;
+		/* height: 3em; */
 	  /* height: 300px; /* Should be removed. Only for demonstration */ */
 	}
 	.columnListMed {
 		float: left;
 		width: 35.5%;
 		padding: 10px;
-		height: 3em;
+		/* height: 3em; */
 		/* height: 300px; /* Should be removed. Only for demonstration */ */
 	}
 	/* Create three equal columns that floats next to each other */
 	.rowList {
 	  height: 3em;
 		margin-left: 2em;
+		background-color: #ffffff !important;
+		border: #ffffff;
 	  /* height: 300px; /* Should be removed. Only for demonstration */ */
 	}
 
@@ -3358,12 +3365,17 @@ input, select, textarea {
 
 
 @media (max-width: 560px) {
+	/* Table to itemize */
+	.table-items{
+		width: 100%;
+		margin: 0 0 1.1em 1em;
+	}
 	/* Create three equal columns that floats next to each other */
 	.columnListSml {
 	  float: left;
 	  width: 29%;
 	  padding: 5px;
-		height: 3em;
+		/* height: 3em; */
 		font-size: 85%;
 	  /* height: 300px; /* Should be removed. Only for demonstration */ */
 	}
@@ -3371,7 +3383,7 @@ input, select, textarea {
 		float: left;
 		width: 35.5%;
 		padding: 5px;
-		height: 3em;
+		/* height: 3em; */
 		font-size: 85%;
 		/* height: 300px; /* Should be removed. Only for demonstration */ */
 	}
@@ -3379,6 +3391,8 @@ input, select, textarea {
 	.rowList {
 	  height: 3em;
 		margin-left: 1em;
+		background-color: #ffffff !important;
+		border: #ffffff;
 	  /* height: 300px; /* Should be removed. Only for demonstration */ */
 	}
 
