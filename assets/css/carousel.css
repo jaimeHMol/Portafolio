@@ -48,6 +48,7 @@
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
+  text-align: center; /* jaimeHMol: added to center image carousel */
 }
 
 .carousel-item-next:not(.carousel-item-left),
