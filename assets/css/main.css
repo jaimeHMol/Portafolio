@@ -3378,7 +3378,7 @@ input, select, textarea {
 	  padding: 5px;
 		/* height: 3em; */
 		font-size: 85%;
-	  /* height: 300px; /* Should be removed. Only for demonstration */ */
+	  /* height: 300px; /* Should be removed. Only for demonstration */
 	}
 	.columnListMed {
 		float: left;
@@ -3386,7 +3386,7 @@ input, select, textarea {
 		padding: 5px;
 		/* height: 3em; */
 		font-size: 85%;
-		/* height: 300px; /* Should be removed. Only for demonstration */ */
+		/* height: 300px; /* Should be removed. Only for demonstration */
 	}
 	/* Create three equal columns that floats next to each other */
 	.rowList {
@@ -3394,7 +3394,7 @@ input, select, textarea {
 		/* margin-left: 1em; */
 		background-color: #ffffff !important;
 		border: #ffffff;
-	  /* height: 300px; /* Should be removed. Only for demonstration */ */
+	  /* height: 300px; /* Should be removed. Only for demonstration */
 	}
 
 	/* Clear floats after the columns */
