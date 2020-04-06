@@ -23,7 +23,50 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/css/carousel.css">
 	</head>
+
+
 	<body class="is-preload">
+
+		<!-- Generator: Jssor Slider Composer -->
+		<!-- Source: https://www.jssor.com/demos/scrolling-logo-thumbnail-slider.slider/=edit -->
+		<script src="assets/js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+				window.jssor_1_slider_init = function() {
+						var jssor_1_options = {
+							$AutoPlay: 1,
+							$Idle: 0,
+							$SlideDuration: 1500,
+							$SlideEasing: $Jease$.$Linear,
+							$PauseOnHover: 4,
+							$SlideWidth: 120,
+							$Align: 0
+						};
+						var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+						/*#region responsive code begin*/
+						var MAX_WIDTH = 600;
+
+						function ScaleSlider() {
+								var containerElement = jssor_1_slider.$Elmt.parentNode;
+								var containerWidth = containerElement.clientWidth;
+
+								if (containerWidth) {
+										var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+										jssor_1_slider.$ScaleWidth(expectedWidth);
+								}
+								else {
+										window.setTimeout(ScaleSlider, 30);
+								}
+						}
+						ScaleSlider();
+						$Jssor$.$AddEvent(window, "load", ScaleSlider);
+						$Jssor$.$AddEvent(window, "resize", ScaleSlider);
+						$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+						/*#endregion responsive code end*/
+				};
+		</script>
+
+
 
 		<!-- Header -->
 			<section id="header">
@@ -54,13 +97,11 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 				<!-- Main -->
 					<div id="main">
 
 						<!-- One -->
 							<section id="one">
-
 								<!-- <div class="image main" data-position="center">
 									<img src="images/banner.jpg" alt="" />
 								</div> -->
@@ -68,18 +109,29 @@
 								</div>
 								<script src="assets/js/particles.js"></script>
 
-
 								<div class="container">
 									<header class="major">
 										<h2>Hi there, I'm Jaime...</h2>
 										<!-- <h2>Jaime at a glance</h2> -->
 										<!-- <p>Just a little bit about me ...</p> -->
 									</header>
-									<p>A data engineer living in Buenos Aires, Argentina. Master student in data science at Universidad de Buenos Aires. I am a fan of technology, reading, and video games. I’m also interested in rock climbing, photography and travel in general. Always hungry to keep learning.</p>
+									<p>A data engineer living in Buenos Aires, Argentina. Master student in data science at Universidad de Buenos Aires. I am a fan of technology, reading, and video games. I’m also interested in rock climbing, photography and travel in general. Always hungry to keep learning.
+                  <br><br>
+                  You can download my CV below, the first one is a short and concise version and the second one is enriched with all the details about my trajectory.</p>
+
+                  <ul class="icons">
+                    <li>
+                      <a href="assets/cv/Jaime_Herran_-CV[Light].pdf" class="icon solid fa-download"></a><span> &nbsp&nbspCV light version&nbsp&nbsp&nbsp</span>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/jaimeHMol" class="icon solid fa-download"></a><span> &nbsp&nbsp&nbspCV full version&nbsp&nbsp&nbsp</span>
+                    </li>
+                  </u1>
+
 								</div>
 							</section>
 
-						<!-- Two -->
+						  <!-- Two -->
 							<section id="two">
 								<div class="container">
 									<h3>My toolbox</h3>
@@ -138,12 +190,110 @@
 												</td>
 											</tr>
 										</table>
-
 										<!-- <li class="icon solid fa-coffee">Drink much coffee</li>
 										<li class="icon solid fa-bolt">Lightning bolt</li>
 										<li class="icon solid fa-users">Shadow clone technique</li> -->
 									</ul>
-								</div>
+
+                  <!-- Jaime's choices carousel -->
+                  <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:120px;overflow:hidden;visibility:hidden;">
+                    <!-- Loading Screen -->
+                    <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                      <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/jaimesChoices/spin.svg" />
+                    </div>
+                    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/MySQL.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Boomi.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/S3.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Oracle.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Python.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Django.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/R.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Java.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Bootstrap.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Git.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Github.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Bitbucket.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Jira.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/SumoLogic.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Jenkins.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Confluence.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Atom.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Iterm2.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Evernote.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/GDrive.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/CyberDuck.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Postman.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Firefox.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Chrome.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Slack.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Pushbullet.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Pocket.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Raspberry.png"/>
+                      </div>
+                      <div>
+                        <img data-u="image" class="p-3" src="images/jaimesChoices/Arduino.png"/>
+                      </div>
+                    </div>
+                    <script type="text/javascript">jssor_1_slider_init();
+                    </script>
+								  </div>
+                </div>
 							</section>
 
 						<!-- Three -->
@@ -649,8 +799,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							</section> -->
 
 						<!-- Seven -->
-
-
 					</div>
 
 				<!-- Footer -->
@@ -666,8 +814,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 			</div>
 
-		<!-- Scripts -->
 
+		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -679,7 +827,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
 
 	</body>
