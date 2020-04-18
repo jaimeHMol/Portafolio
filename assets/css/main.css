@@ -2047,6 +2047,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+
 /* Image */
 
 	.image {
@@ -2745,7 +2746,7 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 2em auto; /* JaimeHMol modified (original 2.25em) */
 				width: 8em;
 			}
 
@@ -2757,7 +2758,7 @@ input, select, textarea {
 			#header > header p {
 				color: #9EB3C2;
 				font-style: italic;
-				margin: 2em 0 0 0;
+				margin: 1.7em 0 0 0; /* JaimeHMol modified (original 2em) */
 			}
 
 		#header > footer {
@@ -2892,7 +2893,7 @@ input, select, textarea {
 			}
 
 				#header > header {
-					padding: 2em;
+					padding: 1.7em; /* JaimeHMol modified (original 2em) */
 				}
 
 				#header > footer {
@@ -3321,9 +3322,11 @@ input, select, textarea {
 
 	}
 
+/* -------------------------------------------------------------------------- */
+/* jaimeHMol: Custom styles                                                   */
+/* -------------------------------------------------------------------------- */
 
-/* jaimeHMol: Custom styles for lists */
-
+/* To handle lists */
 @media (min-width: 561px) {
 	/* Table to itemize */
 	.table-items{
@@ -3336,14 +3339,14 @@ input, select, textarea {
 	  width: 29%;
 	  padding: 10px;
 		/* height: 3em; */
-	  /* height: 300px; /* Should be removed. Only for demonstration */ */
+	  /* height: 300px; /* Should be removed. Only for demonstration */
 	}
 	.columnListMed {
 		float: left;
 		width: 35.5%;
 		padding: 10px;
 		/* height: 3em; */
-		/* height: 300px; /* Should be removed. Only for demonstration */ */
+		/* height: 300px; /* Should be removed. Only for demonstration */
 	}
 	/* Create three equal columns that floats next to each other */
 	.rowList {
@@ -3351,7 +3354,7 @@ input, select, textarea {
 		/* margin-left: 2em; */
 		background-color: #ffffff !important;
 		border: #ffffff;
-	  /* height: 300px; /* Should be removed. Only for demonstration */ */
+	  /* height: 300px; /* Should be removed. Only for demonstration */
 	}
 
 	/* Clear floats after the columns */
@@ -3408,7 +3411,8 @@ input, select, textarea {
 }
 
 
-/*jssor slider loading skin spin css*/
+
+/* jssor slider loading skin spin css */
 .jssorl-009-spin img {
 		animation-name: jssorl-009-spin;
 		animation-duration: 1.6s;
@@ -3418,4 +3422,53 @@ input, select, textarea {
 @keyframes jssorl-009-spin {
 		from { transform: rotate(0deg); }
 		to { transform: rotate(360deg); }
+}
+
+
+
+/* To fade images when hover (projects section) */
+.sectionFadeContainer {
+  /* position: relative; */
+  /* width: 50%; */
+  background: rgb(0, 0, 0); /* Dark background on the overlayed section */
+	border-radius: 6px;
+}
+	.sectionFadeContainer:hover .sectionFade {
+		opacity: 0.3;
+	}
+
+	.sectionFadeContainer:hover .sectionOverlay {
+		opacity: 1;
+	}
+
+.sectionFade {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.sectionOverlay {
+	color: #F4E3AB;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 48%;
+  /* left: 50%; */
+	width: 100%;
+  /* transform: translate(-50%, -50%); */
+  /* -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+	padding-right: 2.5em;
+}
+	.sectionOverlay  > .icon:hover {
+			color: #ffffff !important;
+			text-decoration: none;
+	}
+
+@media screen and (max-width: 736px) {
+	.sectionOverlay {
+		padding-right: 0em;
 }
