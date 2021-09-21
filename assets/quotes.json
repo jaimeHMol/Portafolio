@@ -17,8 +17,12 @@
   "\"Le vent se lève... ill faut tenter de vivre\"  Paul Valéry",
   "\"What is a man? A miserable little pile of secrets\"  Castlevania SOTN",
   "\"As long as you are learning you are not failing\"  Bob Ross",
-  "\"You either die a hero, or you live long enough to see yourself become the villain\"  Harvey Dent in Batman The Dark Knight"],
- "quotesCandidates": ["\"El organismo que deja de aprender, muere\"",
+  "\"You either die a hero, or you live long enough to see yourself become the villain\"  Harvey Dent in Batman The Dark Knight",
+  "\"El organismo que deja de aprender, muere\"",
   "\"Quien no quiere pensar es un fanático, quien no puede pensar es un idiota, quien no osa pensar es un cobarde\"",
-  "\"Habla para que yo te conozca\"  Sócrates"]
+  "\"Progressive improvement beats delayed perfection\"  Mark Twain",
+  "\"Obsession makes my life worse and my work better\"",
+  "\"Code never lies, comments sometimes do\""
+],
+ "quotesCandidates": ["\"Habla para que yo te conozca\"  Sócrates"]
 }
