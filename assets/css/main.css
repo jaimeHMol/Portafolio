@@ -3322,6 +3322,7 @@ input, select, textarea {
 
 	}
 
+
 /* -------------------------------------------------------------------------- */
 /* jaimeHMol: Custom styles                                                   */
 /* -------------------------------------------------------------------------- */
@@ -3411,7 +3412,6 @@ input, select, textarea {
 }
 
 
-
 /* jssor slider loading skin spin css */
 .jssorl-009-spin img {
 		animation-name: jssorl-009-spin;
@@ -3425,7 +3425,6 @@ input, select, textarea {
 }
 
 
-
 /* To fade images when hover (projects section) */
 .sectionFadeContainer {
   /* position: relative; */
@@ -3433,13 +3432,13 @@ input, select, textarea {
   background: rgb(0, 0, 0); /* Dark background on the overlayed section */
 	border-radius: 6px;
 }
-	.sectionFadeContainer:hover .sectionFade {
-		opacity: 0.3;
-	}
+.sectionFadeContainer:hover .sectionFade {
+	opacity: 0.3;
+}
 
-	.sectionFadeContainer:hover .sectionOverlay {
-		opacity: 1;
-	}
+.sectionFadeContainer:hover .sectionOverlay {
+	opacity: 1;
+}
 
 .sectionFade {
   opacity: 1;
@@ -3463,12 +3462,13 @@ input, select, textarea {
   text-align: center;
 	padding-right: 2.5em;
 }
-	.sectionOverlay  > .icon:hover {
-			color: #ffffff !important;
-			text-decoration: none;
-	}
+.sectionOverlay  > .icon:hover {
+		color: #ffffff !important;
+		text-decoration: none;
+}
 
 @media screen and (max-width: 736px) {
 	.sectionOverlay {
 		padding-right: 0em;
+	}
 }

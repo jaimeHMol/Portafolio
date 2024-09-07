@@ -3319,60 +3319,62 @@ input, select, textarea {
 	}
 
 
+/* -------------------------------------------------------------------------- */
+/* jaimeHMol: Custom styles for lists                                         */
+/* -------------------------------------------------------------------------- */
 
-	/* jaimeHMol: Custom styles for lists */
-		/* Create three equal columns that floats next to each other */
-		.columnListSml {
-		  float: left;
-		  width: 25%;
-		  padding: 10px;
-			height: 3em;
-		  /* height: 300px; /* Should be removed. Only for demonstration */ */
-		}
-		.columnListMed {
-			float: left;
-			width: 37.5%;
-			padding: 10px;
-			height: 3em;
-			/* height: 300px; /* Should be removed. Only for demonstration */ */
-		}
-		/* Create three equal columns that floats next to each other */
-		.rowList {
-		  height: 3em;
-			margin-left: 4em;
-		  /* height: 300px; /* Should be removed. Only for demonstration */ */
-		}
+/* Create three equal columns that floats next to each other */
+.columnListSml {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	height: 3em;
+	/* height: 300px; /* Should be removed. Only for demonstration */
+}
+.columnListMed {
+	float: left;
+	width: 37.5%;
+	padding: 10px;
+	height: 3em;
+	/* height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Create three equal columns that floats next to each other */
+.rowList {
+	height: 3em;
+	margin-left: 4em;
+	/* height: 300px; /* Should be removed. Only for demonstration */
+}
 
-		/* Clear floats after the columns */
-		.rowList:after {
-		  content: "";
-		  display: table;
-		  clear: both;
-			margin-left: 4em;
-			/* height: 3em; */
-		}
+/* Clear floats after the columns */
+.rowList:after {
+	content: "";
+	display: table;
+	clear: both;
+	margin-left: 4em;
+	/* height: 3em; */
+}
 
-	/* My Color Schema:
-	Favicon: font white, background #230289, shape circle
-	SidePanel.background: #230289  (Original: #4acaa8)
-	SidePanel.sectionBorder: #371993 (Original: #5ccfb1)
-	SidePanel.tittleColor: white
-	SidePanel.subtitleColor: #9EB3C2 (Original: #d2f2e9)
-	SidePanel.socialMediaColor: #F4E3AB (Original: #b7eadc)
-	MainPanel.mainTittleColor: #230289  (Original: #4acaa8)
-	MainPanel.headerColor: #706993 (Original: #777)
-	MainPanel.textColor: #706993 (Original: #888)
-	MainPanel.iconBackground: #230289 (Original: 4acaa8)
+/* My Color Schema:
+Favicon: font white, background #230289, shape circle
+SidePanel.background: #230289  (Original: #4acaa8)
+SidePanel.sectionBorder: #371993 (Original: #5ccfb1)
+SidePanel.tittleColor: white
+SidePanel.subtitleColor: #9EB3C2 (Original: #d2f2e9)
+SidePanel.socialMediaColor: #F4E3AB (Original: #b7eadc)
+MainPanel.mainTittleColor: #230289  (Original: #4acaa8)
+MainPanel.headerColor: #706993 (Original: #777)
+MainPanel.textColor: #706993 (Original: #888)
+MainPanel.iconBackground: #230289 (Original: 4acaa8)
 
-	More general color Schema:
-	Favicon: font white, background #275DAD, shape circle
-	All.button.hoover: #3A6BB4 (Original: #5ed0b1)
-	SidePanel.background: #275DAD (Original: #4acaa8)
-	SidePanel.sectionBorder: #3A6BB4 (Original: #5ccfb1)
-	SidePanel.tittleColor: white
-	SidePanel.subtitleColor: #9CB5D9 (Original: #d2f2e9)
-	SidePanel.socialMediaColor: #BDD4E7 (Original: #b7eadc)
-	MainPanel.mainTittleColor: #275DAD (Original: #4acaa8)
-	MainPanel.headerColor: #777 (Original: #777)
-	MainPanel.textColor: #888 (Original: #888)
-	MainPanel.iconBackground: #275DAD (Original: 4acaa8) */
+More general color Schema:
+Favicon: font white, background #275DAD, shape circle
+All.button.hoover: #3A6BB4 (Original: #5ed0b1)
+SidePanel.background: #275DAD (Original: #4acaa8)
+SidePanel.sectionBorder: #3A6BB4 (Original: #5ccfb1)
+SidePanel.tittleColor: white
+SidePanel.subtitleColor: #9CB5D9 (Original: #d2f2e9)
+SidePanel.socialMediaColor: #BDD4E7 (Original: #b7eadc)
+MainPanel.mainTittleColor: #275DAD (Original: #4acaa8)
+MainPanel.headerColor: #777 (Original: #777)
+MainPanel.textColor: #888 (Original: #888)
+MainPanel.iconBackground: #275DAD (Original: 4acaa8) */
